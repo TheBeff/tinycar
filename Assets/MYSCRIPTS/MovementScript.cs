@@ -83,6 +83,7 @@ public class MovementScript : MonoBehaviour {
 		if (col.gameObject.name == "LoseCollider") { 
 
 			SceneManager.LoadScene ("LOSESCENE"); 
+			Tinylytics.AnalyticsManager.LogCustomMetric("Time of death", Time.time.ToString());
 			
 		} 
 
