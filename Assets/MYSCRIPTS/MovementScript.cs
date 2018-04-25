@@ -21,6 +21,7 @@ public class MovementScript : MonoBehaviour {
 	public AudioSource vroom; 
 	public AudioSource jumpSound; 
 
+	private float tinyTime; 
 
 	void Start () {
 
@@ -28,8 +29,7 @@ public class MovementScript : MonoBehaviour {
 		rb = GetComponent<Rigidbody> (); 
 		AudioSource vroom = GetComponent<AudioSource> (); 
 		AudioSource jumpSound = GetComponent<AudioSource> (); 
-
-
+	
 	}
 
 	void Update () {
