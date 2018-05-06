@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Ground
   - GroundWin
+  - Ground1
+  - GroundOne
+  - music
+  - BONE
+  - BTWO
   layers:
   - Default
   - TransparentFX
@@ -15,7 +20,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Camera
   - 
   - 
   - 

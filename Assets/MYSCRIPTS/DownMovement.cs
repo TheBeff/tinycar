@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class DownMovement : MonoBehaviour {
 
+
+	public float downSpeed = 0; 
+
 	// Use this for initialization
 	void Start () {
 		
@@ -12,7 +15,7 @@ public class DownMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		transform.Translate (0, -0.05f, 0); 
+		transform.Translate (0, downSpeed, 0); 
 		
 	}
 }
